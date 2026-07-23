@@ -31,6 +31,19 @@ Check wiring without changing anything:
 ./scripts/validate.py
 ```
 
+Run the complete local/CI gate:
+
+```bash
+./scripts/check.sh
+```
+
+## Repository ownership
+
+- GitHub is the public canonical repository.
+- The internal Gitea repository is an automatically updated pull mirror.
+- Installed skill directories are symlinks into a local clone.
+- Update flow: edit, run `./scripts/check.sh`, push to GitHub, then pull on installed machines.
+
 ## Principles
 
 - No planning-framework or harness coupling.

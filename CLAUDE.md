@@ -22,6 +22,7 @@ README.md        Installation and maintenance guide
 ## Commands
 
 ```bash
+./scripts/check.sh
 ./scripts/validate.py
 ./scripts/install.sh
 ./scripts/install.sh --check
