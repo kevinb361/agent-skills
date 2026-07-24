@@ -1,10 +1,12 @@
 # agent-skills
 
+**Archived source.** The maintained capabilities now live in the canonical Saga v2 operator toolbox at `https://github.com/kevinb361/saga`. Preserve this repository as read-only history and migration provenance.
+
 Small, harness-neutral skills for recurring software-engineering work. Skills must earn their place by adding a concrete workflow, safety gate, or review discipline that a capable coding agent would not reliably apply from a short prompt alone.
 
 ## Change Policy
 
-- Development project; freely editable with review and verification.
+- Archived project; do not add new work after the final preservation commit.
 - Keep skills compatible with the Agent Skills `SKILL.md` convention.
 - Do not couple skills to a particular planning framework, coding harness, provider, project, or host.
 - Prefer concise instructions and observable checks over ceremony.

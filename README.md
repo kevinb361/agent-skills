@@ -1,9 +1,16 @@
 # agent-skills
 
+> [!IMPORTANT]
+> This repository is archived. Its capabilities were consolidated into
+> [Saga v2.0.0](https://github.com/kevinb361/saga/releases/tag/v2.0.0), the
+> canonical `ops-*` and `saga-*` operator toolbox. This source remains available
+> for history and migration provenance; use Saga for new installs and updates.
+
 A deliberately small set of reusable, harness-neutral engineering skills.
 
 ## Included
 
+- `adversarial-review` — falsification-focused review for hostile conditions and failure sequences
 - `api-design` — HTTP interface design and review
 - `debug` — evidence-driven debugging
 - `dependency-upgrade` — bounded dependency upgrades
@@ -39,10 +46,9 @@ Run the complete local/CI gate:
 
 ## Repository ownership
 
-- GitHub is the public canonical repository.
-- The internal Gitea repository is an automatically updated pull mirror.
-- Installed skill directories are symlinks into a local clone.
-- Update flow: edit, run `./scripts/check.sh`, push to GitHub, then pull on installed machines.
+- This repository is historical and read-only after archival.
+- [Saga](https://github.com/kevinb361/saga) is the canonical package and installation source.
+- Existing clones and symlinks are retained only for rollback provenance; new installs use Saga's documented migration and installer.
 
 ## Principles
 
